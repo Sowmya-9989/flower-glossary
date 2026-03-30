@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Flower Garden</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+<h1>🌸 Flower Glossary 🌸</h1>
+</header>
+
+<input type="text" id="search" placeholder="Search flower...">
+
+<div id="flower-list"></div>
+
+<!-- FULL PAGE DETAIL -->
+<div id="flower-detail" class="flower-detail hidden">
+
+<div class="detail-page">
+
+<span class="close-btn" onclick="closeFlower()">✖</span>
+
+<h1 id="detail-title"></h1>
+
+<div class="detail-layout">
+
+<!-- TOP IMAGES -->
+<div id="top-images" class="top-images"></div>
+
+<div class="middle-row">
+
+<!-- LEFT -->
+<div id="left-images" class="side-images"></div>
+
+<!-- CENTER -->
+<div class="center-card">
+<img src="images/fashcard/fashion_cardBetween.jpg" class="card-bg" alt="Flower card background">
+
+<div id="detail-card" class="card-text"></div>
+</div>
+
+<!-- RIGHT -->
+<div id="right-images" class="side-images"></div>
+
+</div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
